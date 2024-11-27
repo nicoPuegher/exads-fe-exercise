@@ -1,9 +1,11 @@
+const repoName = window.location.pathname.split('/')[1];
+const basePath = `/${repoName}/assets`;
+
 const moviePacks = {
     'The Gray Man': {
-        'Top Gun: Maverick': '../assets/the-gray-man/top-gun-maverick.png',
-        'Bullet Train': '../assets/the-gray-man/bullet-train.png',
-        'Thor: Love and Thunder':
-            '../assets/the-gray-man/thor-love-and-thunder.png',
+        'Top Gun: Maverick': `${basePath}/the-gray-man/top-gun-maverick.png`,
+        'Bullet Train': `${basePath}/the-gray-man/bullet-train.png`,
+        'Thor: Love and Thunder': `${basePath}/the-gray-man/thor-love-and-thunder.png`,
     },
     'Top Gun: Maverick': {
         'Batman & Robin': null,
