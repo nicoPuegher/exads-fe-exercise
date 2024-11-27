@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Exads FE Exercise</title>
+    </head>
+    <body>
+        <!-- Logotype -->
+        <header>
+            <h1>Your Logo</h1>
+        </header>
+
+        <main>
+            <!-- Call to action -->
+            <section class="cta u-hide">
+                <h2 class="cta-title">WATCH NEW MOVIES FOR FREE</h2>
+                <p class="cta-txt">
+                    Watch any movies online for free without ads!
+                </p>
+                <p class="cta-txt">Have fun watching your favourite movies!</p>
+                <button class="cta-btn">WATCH HERE!</button>
+            </section>
+
+            <!-- Questionnaire -->
+            <section class="q">
+                <h3 class="q-title">QUESTION 1 OF 3:</h3>
+                <div class="q-indicator">
+                    <div class="q-circle u-active"></div>
+                    <div class="q-circle"></div>
+                    <div class="q-circle"></div>
+                </div>
+            </section>
+
+            <!-- Movies -->
+            <section class="movies">
+                <h2 class="movies-title">Choose one of the three movies</h2>
+                <div class="movies-options">
+                    <!-- Movie options will be dynamically inserted here -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Background and overlay -->
+        <div class="bg">
+            <img class="bg-image" src="./assets/background.png" />
+            <div class="bg-overlay"></div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <a href="#" target="_blank">Privacy Policy</a>
+            <a href="#" target="_blank">Terms of Use</a>
+        </footer>
+
+        <!-- JavaScript application -->
+        <script type="module" src="./src/app.js"></script>
+    </body>
+</html>
