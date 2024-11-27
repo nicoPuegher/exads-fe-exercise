@@ -1,8 +1,10 @@
+const repoName = window.location.pathname.split('/')[1];
+const basePath = `/${repoName}/assets`;
+
 const initialMovies = {
-    'The Gray Man': '/assets/the-gray-man/the-gray-man.png',
-    Blonde: '/assets/blonde/blonde.png',
-    'Minions: The Rise of Gru':
-        '/assets/minions-the-rise-of-gru/minions-the-rise-of-gru.png',
+    'The Gray Man': `${basePath}/the-gray-man/the-gray-man.png`,
+    Blonde: `${basePath}/blonde/blonde.png`,
+    'Minions: The Rise of Gru': `${basePath}/minions-the-rise-of-gru/minions-the-rise-of-gru.png`,
 };
 
 export default initialMovies;
